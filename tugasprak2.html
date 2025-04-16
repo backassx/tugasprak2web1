@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas Prak 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .background {
+      background-image: url('beach.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: relative;
+    }
+
+    .overlay-box {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 102, 255, 0.7)); /* gradien hitam ke biru */
+      color: white;
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 700px;
+      height: 95px;
+    }
+
+    .overlay-box h2 {
+      font-size: 19px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .overlay-box p {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="overlay-box">
+      <h2>Multimedia Broadcast</h2>
+      <p>Apa itu Broadcast?</p>
+    </div>
+  </div>
+</body>
+</html>
